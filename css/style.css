@@ -39,7 +39,6 @@ header{
     position: absolute;
     background-color: white;
     width: 80%;
-    align-items: ;
     margin-top: 40px;
     margin-left: 15%;
     margin-right: 15%;
@@ -67,7 +66,7 @@ button{
 }
 /* main part */
 .task{
-    margin: 20px;
+    margin: 25px;
     color: rgb(105, 104, 104);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -76,6 +75,9 @@ h3{
     color: rgb(66, 62, 62);
 
 }
+.text{
+    margin: 10px;
+}
 .check{
     color: #6EBAA4;
     border-color: #6EBAA4;
@@ -83,11 +85,63 @@ h3{
     border: 1px solid  #6EBAA4;
     border-radius: 50%;
 }
+.uncheck{
+    color: #BC6969;
+    border-color: #BC6969;
+    text-align: center;
+    border: 1px solid  #BC6969;
+    border-radius: 50%;
+}
 #text{
     margin-left: 5px;
 }
 .label{
     background-color: #3FABEB;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label-purple{
+    background-color: #A177E6;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label-green{
+    background-color: #66C2AB;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label-orange{
+    background-color: #F29D31;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label-pink{
+    background-color: #DB679F;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label-light-green{
+    background-color: #B0C926;
     border: none;
     border-radius: 12px;
     padding: 6px;
