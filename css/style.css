@@ -1,0 +1,67 @@
+/* regole generali di pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header + logo */
+
+header{
+    display: inline-block;
+    width: 100%;clear:both;
+}
+
+#logo{
+    display: inline;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+#logo-text{
+    display: inline;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: middle;
+    }
+
+/* I contenitore del main */
+#grey-background{
+    background-color: #F7F8FA;
+    height:800px;
+}
+#contenitore{
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    align-items: ;
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+
+/* button e text */
+button{
+    background-color: #41AAEC;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+}
+#add-name{
+    border-color: ghostwhite;
+    border-radius: 6px;
+    padding: 6px;
+    color: ghostwhite;
+}
+#search-bar{
+    border-bottom: solid 2px ghostwhite;
+    padding: 15px;
+}
