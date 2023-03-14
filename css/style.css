@@ -65,3 +65,33 @@ button{
     border-bottom: solid 2px ghostwhite;
     padding: 15px;
 }
+/* main part */
+.task{
+    margin: 20px;
+    color: rgb(105, 104, 104);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+
+    color: rgb(66, 62, 62);
+
+}
+.check{
+    color: #6EBAA4;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
+}
+#text{
+    margin-left: 5px;
+}
+.label{
+    background-color: #3FABEB;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
